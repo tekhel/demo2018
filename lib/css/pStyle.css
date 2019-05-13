@@ -1,0 +1,138 @@
+/**********************************Généralités **********************************************/
+.txtGras{
+    font-weight:bolder;
+}
+.txtItalic{
+    font-style:italic;
+}
+.txtBlue{
+    color:red;
+}
+.firstLetter:first-letter{
+    color:red;
+}
+
+.txtCouleurPension{
+    color:red;
+}
+
+.petite_taille_texte {
+    font-size:90%;
+}
+
+/******************************************gabarit & généralités ********************************/
+input {
+    /*line-height:2%;*/
+    color:#000;
+}
+.salmon {
+    background:lightsalmon;
+    font-weight: bolder;
+}
+
+#image{
+    background-image:url(../../images/gal10.jpg);
+    background-repeat:no-repeat; /* image s'affiche une seule fois */
+    width:100%;
+}
+
+header img {
+    width:100%;	
+}
+
+#page {
+    margin:0 auto; 
+    width:90%;
+    max-width:850px; /* taille du header */
+    min-width:760px;
+}
+
+.hauteur_menu_xs {
+    max-height: 30px;
+}
+
+.img_header {
+    background-image:url(../../images/gal10.jpg) ;
+    display:block;
+    height:200px;
+    width:1000px;
+    background-repeat:no-repeat;
+}
+
+ul {
+    padding-left:0%;
+}
+
+#menu ul {
+    padding-left:20%;
+}
+
+#menu li {
+    list-style-type:none;
+    text-align:left;
+}
+
+.bottomLine {
+    border-bottom-style:solid;
+    border-bottom-color:#CCC;
+    border-bottom-width:0.07em;
+}
+nav {
+
+}
+
+#menu a {
+    text-decoration:none; 
+}
+#menu a:hover{
+    color:white;
+    background-color:red;	
+}
+.txtGras {
+    font-weight:bolder;
+}
+footer {
+    clear:both; 
+    color:#333;
+    width:80%;
+    margin:0 auto; 
+    text-align:center;
+    padding-right:15px;
+}	
+#label {
+    text-align:center;
+    padding-right:3%;
+}
+#contenu { 
+    float :left; 
+    margin-top:5%; 
+    margin-left:2%;
+    width:75%;
+
+}	
+#main,p_menu {
+    padding-left:1%;
+    padding-right:1%;
+    width:100%;
+    display:inline-block;
+    font-size:100%;    
+}
+
+.taille_logo {
+    height: 70px;
+    width: 70px;
+}
+
+.presentation_accueil{
+    line-height:40px;
+    font-size:150%;
+}
+
+#submit_res input{
+    line-height: 50px;
+}
+
+.rowdate {
+    
+    width: 50%;
+}
